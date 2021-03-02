@@ -1,5 +1,16 @@
 /*===== GOOGLE FONTS =====*/
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+
+/* width */
+::-webkit-scrollbar {
+  width: 3px;
+  background-color: white;
+}
+::-webkit-scrollbar-thumb {
+  border-radius: 20px;
+  background-color: var(--first-color);
+}
+
 /*===== VARIABLES CSS =====*/
 :root{
   --header-height: 3rem;
